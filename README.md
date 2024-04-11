@@ -53,6 +53,16 @@ compatibility!
   2. Power up the device while holding down MENU (the volume knob).
   3. Select retro-go in the files list and flash it.
 
+### MyRetroGameCase GameBox Mini
+  1. Download `retro-go_1.x_mrgc-gbm.fw` from the release page and copy it to `/espmini/firmware` on your sdcard.
+  2. Power up the device while holding down MENU (second button from the right).
+  3. Select retro-go in the files list and flash it.
+
+### ESPlay Micro V2
+  1. Download `retro-go_1.x_esplay-micro.fw` from the release page and copy it to `/espplay/firmware` on your sdcard.
+  2. Power up the device while holding down MENU (bottom-right button).
+  3. Select retro-go in the files list and flash it.
+
 ### Generic ESP32
 This method is intended to be used when .fw support isn't available (when porting to a new device) or undesirable (devices with smaller flash).
   1. Build a .img file (refer to [Building Retro-Go](#building) below)
